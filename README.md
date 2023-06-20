@@ -19,13 +19,15 @@ Um das Projekt auf deinem System auszuführen, befolge bitte die folgenden Schri
 4. Starte die Docker-Compose-Anwendung, indem du den Befehl ausführst:
    
   'docker-compose up -d'
+  
 Dieser Befehl startet die Dienste in Hintergrundprozessen.
 
-6. arte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
-7. 
+5. arte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
+
   'docker-compose ps'
 
-8. Sobald die Dienste gestartet sind, kannst du auf die Anwendung zugreifen:
+6. Sobald die Dienste gestartet sind, kannst du auf die Anwendung zugreifen:
+   
 WordPress: Öffne einen Webbrowser und gehe zu http://localhost:8000, um die WordPress-Website aufzurufen.
 Grafana: Öffne einen Webbrowser und gehe zu http://localhost:3000, um auf das Grafana-Dashboard zuzugreifen.
 Prometheus: Öffne einen Webbrowser und gehe zu http://localhost:9090, um auf die Prometheus-Oberfläche zuzugreifen.
