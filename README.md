@@ -9,19 +9,23 @@ Um das Projekt auf deinem System auszuführen, befolge bitte die folgenden Schri
 1. Stelle sicher, dass Docker und Docker Compose auf deinem System installiert sind.
 
 2. Öffne eine Kommandozeile oder ein Terminal und führe den folgenden Befehl aus, um das Repository herunterzuladen:
+   
   'git clone https://github.com/Deadlore/m169.git'
    
 3. Wechsele in das Verzeichnis des heruntergeladenen Repositorys:
+   
   'cd m169'
 
 4. Starte die Docker-Compose-Anwendung, indem du den Befehl ausführst:
+   
   'docker-compose up -d'
 Dieser Befehl startet die Dienste in Hintergrundprozessen.
 
-5. arte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
+6. arte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
+7. 
   'docker-compose ps'
 
-6. Sobald die Dienste gestartet sind, kannst du auf die Anwendung zugreifen:
+8. Sobald die Dienste gestartet sind, kannst du auf die Anwendung zugreifen:
 WordPress: Öffne einen Webbrowser und gehe zu http://localhost:8000, um die WordPress-Website aufzurufen.
 Grafana: Öffne einen Webbrowser und gehe zu http://localhost:3000, um auf das Grafana-Dashboard zuzugreifen.
 Prometheus: Öffne einen Webbrowser und gehe zu http://localhost:9090, um auf die Prometheus-Oberfläche zuzugreifen.
