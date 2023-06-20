@@ -28,11 +28,11 @@ Dieser Befehl startet die Dienste in Hintergrundprozessen.
 
 6. Sobald die Dienste gestartet sind, kannst du auf die Anwendung zugreifen:
    
-WordPress: Öffne einen Webbrowser und gehe zu http://localhost:8000, um die WordPress-Website aufzurufen.
+WordPress: Öffne einen Webbrowser und gehe zu http://localhost:8000, um die WordPress-Website aufzurufen. (Benutzername + Passwort selber wählen)
 
-Grafana: Öffne einen Webbrowser und gehe zu http://localhost:3000, um auf das Grafana-Dashboard zuzugreifen.
+Grafana: Öffne einen Webbrowser und gehe zu http://localhost:3000, um auf das Grafana-Dashboard zuzugreifen. (Benutzername: admin Passwort: admin
 
-Prometheus: Öffne einen Webbrowser und gehe zu http://localhost:9090, um auf die Prometheus-Oberfläche zuzugreifen.
+Prometheus: Öffne einen Webbrowser und gehe zu http://localhost:9090, um auf die Prometheus-Oberfläche zuzugreifen. (Kein Benutzer anlegen nötig)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
