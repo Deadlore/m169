@@ -32,5 +32,6 @@ Prometheus: Öffne einen Webbrowser und gehe zu http://localhost:9090, um auf di
 Um die Docker-Compose-Anwendung zu beenden und die Container zu entfernen, führe den folgenden Befehl aus:
 
   'docker-compose down'
+  
 Dieser Befehl stoppt und entfernt die gestarteten Container und löscht die zugehörigen Netzwerke und Volumes.
 
