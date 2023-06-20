@@ -15,9 +15,7 @@ services:
   wordpress:
     depends_on:
       - db
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     ports:
       - "8000:80"
     restart: always
@@ -42,6 +40,13 @@ services:
       - '3000:3000'
     volumes:
       - grafana_storage:/var/lib/grafana
+
+  weave-scope:
+    image: weaveworks/scope:latest
+    ports:
+      - '4040:4040'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 
 volumes:
   db_data: {}
