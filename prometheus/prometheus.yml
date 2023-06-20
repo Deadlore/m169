@@ -3,6 +3,6 @@ global:
 
 scrape_configs:
   - job_name: 'wordpress'
-    metrics_path: '/metrics'
     static_configs:
       - targets: ['wordpress:80']
+

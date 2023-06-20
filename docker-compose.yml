@@ -15,7 +15,9 @@ services:
   wordpress:
     depends_on:
       - db
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8000:80"
     restart: always
@@ -42,5 +44,5 @@ services:
       - grafana_storage:/var/lib/grafana
 
 volumes:
-    db_data: {}
-    grafana_storage: {}
+  db_data: {}
+  grafana_storage: {}
