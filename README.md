@@ -22,7 +22,7 @@ Um das Projekt auf deinem System auszuführen, befolge bitte die folgenden Schri
   
 Dieser Befehl startet die Dienste in Hintergrundprozessen.
 
-5. arte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
+5. Warte einen Moment, während die Dienste gestartet werden. Du kannst den Status überprüfen, indem du den folgenden Befehl ausführst:
 
   'docker-compose ps'
 
